@@ -10,6 +10,34 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/cssNav.css">
+    <style>
+        h4 {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h4:after {
+            display: inline-block;
+            margin: 0 0 8px 20px;
+            height: 3px;
+            content: " ";
+            text-shadow: none;
+            background-color: #999;
+            width: 400px;
+        }
+
+        h4:before {
+            display: inline-block;
+            margin: 0 20px 8px 0;
+            height: 3px;
+            content: " ";
+            text-shadow: none;
+            background-color: #999;
+            width: 400px;
+        }
+    </style>
 </head>
 
 <body>
@@ -33,12 +61,129 @@
                 </ul>
             </nav>
         </header>
-        <section class="row">
-            <aside></aside>
-            <article></article>
+        <section>
+            <article>
+
+                <div class="row" style="background: white;">
+                    <!-- <div class="col-lg-3">
+                            <h1 class="my-4">ABC SHOP</h1>
+                            <div class="list-group">
+                                <a href="#" class="list-group-item">Category 1</a>
+                                <a href="#" class="list-group-item">Category 2</a>
+                                <a href="#" class="list-group-item">Category 3</a>
+                            </div>
+                        </div> -->
+                    <div class="col">
+                        <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                    <a href="#"><img class="d-block img-fluid" src="http://placehold.it/1200x350"
+                                            alt="First slide"></a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="#"><img class="d-block img-fluid" src="http://placehold.it/1200x350"
+                                            alt="Second slide"></a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="#"><img class="d-block img-fluid" src="http://placehold.it/1200x350"
+                                            alt="Third slide"></a>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="folder-title mt-3 mb-2">
+                    <h4>Tổng hợp danh mục</h4>
+                </div>
+                <div class="row pt-3" style="background:whitesmoke;">
+                    <div class="col-lg-12">
+
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <a href="#"><img class="card-img-top" src="http://placehold.it/450x330" alt=""></a>
+                            </div>
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <a href="#"><img class="card-img-top" src="http://placehold.it/450x330" alt=""></a>
+                            </div>
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <a href="#"><img class="card-img-top" src="http://placehold.it/450x330" alt=""></a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 mb-4">
+                                <a href="#"><img class="card-img-top" src="http://placehold.it/300x300" alt=""></a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 mb-4">
+                                <a href="#"><img class="card-img-top" src="http://placehold.it/300x300" alt=""></a>
+                            </div>
+                            <div class="col-lg-6 col-md-6 mb-4">
+                                <a href="#"><img class="card-img-top" src="http://placehold.it/700x330" alt=""></a>
+                            </div>
+                            <div class="col-lg-5 col-md-6 mb-4">
+                                <a href="#"><img class="card-img-top" src="http://placehold.it/600x345" alt=""></a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 mb-4">
+                                <a href="#"><img class="card-img-top" src="http://placehold.it/300x300" alt=""></a>
+                            </div>
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <a href="#"><img class="card-img-top" src="http://placehold.it/410x300" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="folder-title mt-3 mb-2">
+                    <h4>Có thể bạn quan tâm</h4>
+                </div>
+                <div class="row pt-3" style="background:whitesmoke;">
+                    <div class="col-lg-12">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <a href="#"><img class="card-img-top" src="http://placehold.it/450x330" alt=""></a>
+                            </div>
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <a href="#"><img class="card-img-top" src="http://placehold.it/450x330" alt=""></a>
+                            </div>
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <a href="#"><img class="card-img-top" src="http://placehold.it/450x330" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="folder-title mt-3 mb-2">
+                    <h4>Tìm kiếm HOT</h4>
+                </div>
+                <div class="row pt-3" style="background:whitesmoke;">
+                    <div class="col-lg-12">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <a href="#"><img class="card-img-top" src="http://placehold.it/450x330" alt=""></a>
+                            </div>
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <a href="#"><img class="card-img-top" src="http://placehold.it/450x330" alt=""></a>
+                            </div>
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <a href="#"><img class="card-img-top" src="http://placehold.it/450x330" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
         </section>
         <footer>
-            <h1> BACSIC </h1>
+            <h1> Here is footer </h1>
         </footer>
     </div>
 
